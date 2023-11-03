@@ -40,6 +40,46 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700');
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.singel-feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cont h5 {
+    color: white;
+    margin: 0;
+}
+
+    @media (max-width: 768px) {
+    .support-button .cont {
+        display: none;
+    }
+}
+
+    @media (max-width: 768px) {
+    .support-button .icon {
+        display: block;
+    }
+}
+
+.dropdown-item {
+height: 10px;
+padding-top: 5px;
+transition: all 0.3s ease-in-out;
+margin-left: 10px;
+}
+
+.dropdown-menu {
+overflow: hidden;
+transition: all 0.3s ease-in-out;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
